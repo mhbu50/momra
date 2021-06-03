@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include momra *.css
+recursive-include momra *.csv
+recursive-include momra *.html
+recursive-include momra *.ico
+recursive-include momra *.js
+recursive-include momra *.json
+recursive-include momra *.md
+recursive-include momra *.png
+recursive-include momra *.py
+recursive-include momra *.svg
+recursive-include momra *.txt
+recursive-exclude momra *.pyc

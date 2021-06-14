@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "creation": "2021-06-06 22:19:49.262678",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "info_section",
+  "english_name",
+  "english_description",
+  "service_url",
+  "apijee_collection",
+  "service_documentation",
+  "base_path",
+  "column_break_3",
+  "arabic_name",
+  "arabic_description",
+  "source_url",
+  "source_collection",
+  "analysis_documentation",
+  "tfs_code_link",
+  "checking_section",
+  "portal",
+  "test",
+  "renaming_portal",
+  "column_break_18",
+  "monitoring",
+  "qa",
+  "knowledge_transfer",
+  "naming_convention",
+  "ownership_section",
+  "analysis_owner",
+  "column_break_26",
+  "developer_owner",
+  "column_break_28",
+  "operation_owner",
+  "lookups",
+  "service_provider",
+  "column_break_32",
+  "service_beneficiary",
+  "column_break_34",
+  "service_category"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_url",
+   "fieldtype": "Data",
+   "label": "Service URL"
+  },
+  {
+   "fieldname": "source_url",
+   "fieldtype": "Data",
+   "label": "Source URL"
+  },
+  {
+   "fieldname": "apijee_collection",
+   "fieldtype": "Attach",
+   "label": "Apijee Collection"
+  },
+  {
+   "fieldname": "source_collection",
+   "fieldtype": "Attach",
+   "label": "Source Collection"
+  },
+  {
+   "fieldname": "service_documentation",
+   "fieldtype": "Attach",
+   "label": "Service Documentation"
+  },
+  {
+   "fieldname": "analysis_documentation",
+   "fieldtype": "Attach",
+   "label": "Analysis Documentation"
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name"
+  },
+  {
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "label": "English Name"
+  },
+  {
+   "fieldname": "arabic_description",
+   "fieldtype": "Small Text",
+   "label": "Arabic Description"
+  },
+  {
+   "fieldname": "english_description",
+   "fieldtype": "Small Text",
+   "label": "English Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "portal",
+   "fieldtype": "Check",
+   "label": "Portal"
+  },
+  {
+   "default": "0",
+   "fieldname": "renaming_portal",
+   "fieldtype": "Check",
+   "label": "Renaming Portal"
+  },
+  {
+   "default": "0",
+   "fieldname": "monitoring",
+   "fieldtype": "Check",
+   "label": "Monitoring"
+  },
+  {
+   "default": "0",
+   "fieldname": "qa",
+   "fieldtype": "Check",
+   "label": "QA"
+  },
+  {
+   "default": "0",
+   "fieldname": "knowledge_transfer",
+   "fieldtype": "Check",
+   "label": "Knowledge Transfer"
+  },
+  {
+   "fieldname": "tfs_code_link",
+   "fieldtype": "Data",
+   "label": "TFS Code Link"
+  },
+  {
+   "fieldname": "analysis_owner",
+   "fieldtype": "Data",
+   "label": "Analysis Owner"
+  },
+  {
+   "fieldname": "developer_owner",
+   "fieldtype": "Data",
+   "label": "Developer Owner"
+  },
+  {
+   "fieldname": "operation_owner",
+   "fieldtype": "Data",
+   "label": "Operation Owner"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Link",
+   "label": "Service Provider",
+   "options": "Service Provider"
+  },
+  {
+   "fieldname": "service_beneficiary",
+   "fieldtype": "Link",
+   "label": "Service Beneficiary",
+   "options": "Service Beneficiary"
+  },
+  {
+   "fieldname": "service_category",
+   "fieldtype": "Link",
+   "label": "Service Category",
+   "options": "Service Category"
+  },
+  {
+   "default": "0",
+   "fieldname": "naming_convention",
+   "fieldtype": "Check",
+   "label": "Naming Convention"
+  },
+  {
+   "default": "0",
+   "fieldname": "test",
+   "fieldtype": "Check",
+   "label": "Test"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "info_section",
+   "fieldtype": "Section Break",
+   "label": "Info"
+  },
+  {
+   "fieldname": "checking_section",
+   "fieldtype": "Section Break",
+   "label": "checking"
+  },
+  {
+   "fieldname": "ownership_section",
+   "fieldtype": "Section Break",
+   "label": "Ownership"
+  },
+  {
+   "fieldname": "lookups",
+   "fieldtype": "Section Break",
+   "label": "lookups"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_path",
+   "fieldtype": "Data",
+   "label": "Base Path"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-06-06 22:33:59.805547",
+ "modified_by": "Administrator",
+ "module": "Momra",
+ "name": "Service Refrances",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

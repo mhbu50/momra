@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "creation": "2021-08-23 20:54:33.098681",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "opration_name",
+  "describtion",
+  "verb"
+ ],
+ "fields": [
+  {
+   "fieldname": "opration_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Opration Name"
+  },
+  {
+   "fieldname": "describtion",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Describtion"
+  },
+  {
+   "fieldname": "verb",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verb",
+   "options": "\nGET\nPOST"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-24 00:04:48.193583",
+ "modified_by": "Administrator",
+ "module": "Momra",
+ "name": "Opration",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

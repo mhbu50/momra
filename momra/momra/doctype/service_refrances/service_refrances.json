@@ -1,5 +1,9 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "SR.#####",
  "creation": "2021-06-06 22:19:49.262678",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -11,14 +15,16 @@
   "service_url",
   "apijee_collection",
   "service_documentation",
-  "base_path",
+  "protocole",
   "column_break_3",
   "arabic_name",
   "arabic_description",
   "source_url",
+  "tfs_code_link",
   "source_collection",
   "analysis_documentation",
-  "tfs_code_link",
+  "opration_sec_section",
+  "opration",
   "checking_section",
   "portal",
   "test",
@@ -50,6 +56,7 @@
   {
    "fieldname": "source_url",
    "fieldtype": "Data",
+   "in_standard_filter": 1,
    "label": "Source URL"
   },
   {
@@ -75,12 +82,16 @@
   {
    "fieldname": "arabic_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Arabic Name"
   },
   {
    "fieldname": "english_name",
    "fieldtype": "Data",
-   "label": "English Name"
+   "label": "English Name",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "arabic_description",
@@ -129,18 +140,21 @@
   },
   {
    "fieldname": "analysis_owner",
-   "fieldtype": "Data",
-   "label": "Analysis Owner"
+   "fieldtype": "Link",
+   "label": "Analysis Owner",
+   "options": "Analysis Owner"
   },
   {
    "fieldname": "developer_owner",
-   "fieldtype": "Data",
-   "label": "Developer Owner"
+   "fieldtype": "Link",
+   "label": "Developer Owner",
+   "options": "Developer Owner"
   },
   {
    "fieldname": "operation_owner",
-   "fieldtype": "Data",
-   "label": "Operation Owner"
+   "fieldtype": "Link",
+   "label": "Operation Owner",
+   "options": "Operation Owner"
   },
   {
    "fieldname": "service_provider",
@@ -201,11 +215,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "base_path",
-   "fieldtype": "Data",
-   "label": "Base Path"
-  },
-  {
    "fieldname": "column_break_26",
    "fieldtype": "Column Break"
   },
@@ -220,11 +229,28 @@
   {
    "fieldname": "column_break_34",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "protocole",
+   "fieldtype": "Select",
+   "label": "Protocole",
+   "options": "Rest\nSOAP"
+  },
+  {
+   "fieldname": "opration_sec_section",
+   "fieldtype": "Section Break",
+   "label": "Opration"
+  },
+  {
+   "fieldname": "opration",
+   "fieldtype": "Table",
+   "label": "Opration",
+   "options": "Opration"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-06 22:33:59.805547",
+ "modified": "2021-08-23 20:55:30.401222",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Service Refrances",
@@ -243,7 +269,9 @@
    "write": 1
   }
  ],
+ "search_fields": "english_name,arabic_name,service_url",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "english_name",
  "track_changes": 1
 }

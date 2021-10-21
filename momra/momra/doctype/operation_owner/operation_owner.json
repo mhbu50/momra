@@ -21,7 +21,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-14 21:31:28.479157",
+ "modified": "2021-09-07 13:10:11.488745",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Operation Owner",
@@ -45,7 +45,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "All",
+   "role": "Apigee User",
    "share": 1
   }
  ],

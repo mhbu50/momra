@@ -36,6 +36,7 @@
   "naming_convention",
   "ownership_section",
   "analysis_owner",
+  "tracks",
   "column_break_26",
   "developer_owner",
   "column_break_28",
@@ -107,7 +108,7 @@
    "default": "0",
    "fieldname": "portal",
    "fieldtype": "Check",
-   "label": "Portal"
+   "label": "Puplish in Portal"
   },
   {
    "default": "0",
@@ -142,31 +143,31 @@
    "fieldname": "analysis_owner",
    "fieldtype": "Link",
    "label": "Analysis Owner",
-   "options": "Analysis Owner"
+   "options": "User"
   },
   {
    "fieldname": "developer_owner",
    "fieldtype": "Link",
    "label": "Developer Owner",
-   "options": "Developer Owner"
+   "options": "User"
   },
   {
    "fieldname": "operation_owner",
    "fieldtype": "Link",
    "label": "Operation Owner",
-   "options": "Operation Owner"
+   "options": "User"
   },
   {
    "fieldname": "service_provider",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Service Provider",
-   "options": "Service Provider"
+   "options": "Agency Service"
   },
   {
    "fieldname": "service_beneficiary",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Service Beneficiary",
-   "options": "Service Beneficiary"
+   "options": "Agency Service"
   },
   {
    "fieldname": "service_category",
@@ -246,14 +247,20 @@
    "fieldtype": "Table",
    "label": "Opration",
    "options": "Opration"
+  },
+  {
+   "fieldname": "tracks",
+   "fieldtype": "Link",
+   "label": "Tracks",
+   "options": "Tracks"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-08-23 20:55:30.401222",
+ "modified": "2021-10-18 16:11:20.562492",
  "modified_by": "Administrator",
  "module": "Momra",
- "name": "Service Refrances",
+ "name": "Service Catalog",
  "owner": "Administrator",
  "permissions": [
   {
@@ -267,6 +274,15 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Apigee User",
+   "share": 1
   }
  ],
  "search_fields": "english_name,arabic_name,service_url",

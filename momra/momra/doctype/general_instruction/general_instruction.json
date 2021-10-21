@@ -1,27 +1,38 @@
 {
  "actions": [],
- "autoname": "field:developer_owner",
- "creation": "2021-06-14 15:05:17.033687",
+ "autoname": "GI.####",
+ "creation": "2021-09-07 11:25:52.806189",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "developer_owner"
+  "subject",
+  "describtion",
+  "reference"
  ],
  "fields": [
   {
-   "fieldname": "developer_owner",
+   "fieldname": "subject",
    "fieldtype": "Data",
-   "label": "Developer Owner",
-   "unique": 1
+   "label": "Subject"
+  },
+  {
+   "fieldname": "describtion",
+   "fieldtype": "Small Text",
+   "label": "Describtion"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-07 13:10:58.369428",
+ "modified": "2021-09-09 11:09:17.864116",
  "modified_by": "Administrator",
  "module": "Momra",
- "name": "Developer Owner",
+ "name": "General Instruction",
  "owner": "Administrator",
  "permissions": [
   {
@@ -46,9 +57,8 @@
    "share": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "title_field": "developer_owner",
+ "title_field": "subject",
  "track_changes": 1
 }

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestServiceRefrances(unittest.TestCase):
+class TestGeneralInstruction(unittest.TestCase):
 	pass

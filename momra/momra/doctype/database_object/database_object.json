@@ -63,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-06 22:42:38.601987",
+ "modified": "2021-09-07 13:11:45.572388",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Database Object",
@@ -80,6 +80,15 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Apigee User",
+   "share": 1
   }
  ],
  "sort_field": "modified",

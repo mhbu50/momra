@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "creation": "2021-09-08 10:53:29.223681",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "agency"
+ ],
+ "fields": [
+  {
+   "fieldname": "agency",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Agency",
+   "options": "Agency"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-07 10:51:17.827688",
+ "modified_by": "Administrator",
+ "module": "Momra",
+ "name": "Agency Service",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

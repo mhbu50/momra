@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "autoname": "field:agency",
+ "creation": "2021-09-08 10:36:30.994171",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "agency",
+  "description",
+  "column_break_3",
+  "sla_attachment",
+  "section_break_5",
+  "contact_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "agency",
+   "fieldtype": "Data",
+   "label": "Agency",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "sla_attachment",
+   "fieldtype": "Attach",
+   "label": "SLA Attachment"
+  },
+  {
+   "fieldname": "contact_list",
+   "fieldtype": "Table",
+   "label": "Contact List",
+   "options": "Contact List"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-08 11:19:22.306172",
+ "modified_by": "Administrator",
+ "module": "Momra",
+ "name": "Agency",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Apigee User",
+   "share": 1
+  }
+ ],
+ "search_fields": "description",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

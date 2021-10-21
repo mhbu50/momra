@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestServiceBeneficiary(unittest.TestCase):
+class TestAgency(unittest.TestCase):
 	pass

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestServiceProvider(unittest.TestCase):
+class TestTracks(unittest.TestCase):
 	pass

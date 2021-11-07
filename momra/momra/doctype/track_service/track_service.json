@@ -21,7 +21,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Owner",
-   "options": "User"
+   "options": "Consultant"
   },
   {
    "fetch_from": "owner.full_name",
@@ -34,7 +34,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-09-21 12:32:01.709809",
+ "modified": "2021-10-24 14:31:25.457314",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Track Service",

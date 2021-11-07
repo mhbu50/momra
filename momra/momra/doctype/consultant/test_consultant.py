@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestDeveloperOwner(unittest.TestCase):
+class TestConsultant(unittest.TestCase):
 	pass

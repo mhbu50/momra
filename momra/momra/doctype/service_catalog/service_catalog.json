@@ -39,7 +39,6 @@
   "tracks",
   "column_break_26",
   "developer_owner",
-  "column_break_28",
   "operation_owner",
   "lookups",
   "service_provider",
@@ -141,21 +140,21 @@
   },
   {
    "fieldname": "analysis_owner",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Analysis Owner",
-   "options": "User"
+   "options": "Analysis Owner"
   },
   {
    "fieldname": "developer_owner",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Developer Owner",
-   "options": "User"
+   "options": "Analysis Owner"
   },
   {
    "fieldname": "operation_owner",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Operation Owner",
-   "options": "User"
+   "options": "Analysis Owner"
   },
   {
    "fieldname": "service_provider",
@@ -220,10 +219,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_28",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "column_break_32",
    "fieldtype": "Column Break"
   },
@@ -250,14 +245,14 @@
   },
   {
    "fieldname": "tracks",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Tracks",
-   "options": "Tracks"
+   "options": "Track Owner"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-18 16:11:20.562492",
+ "modified": "2021-10-24 14:54:28.787537",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Service Catalog",

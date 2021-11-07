@@ -1,27 +1,34 @@
 {
  "actions": [],
- "autoname": "field:developer_owner",
- "creation": "2021-06-14 15:05:17.033687",
+ "autoname": "field:consultant",
+ "creation": "2021-10-24 14:18:02.584586",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "developer_owner"
+  "consultant",
+  "email"
  ],
  "fields": [
   {
-   "fieldname": "developer_owner",
+   "fieldname": "consultant",
    "fieldtype": "Data",
-   "label": "Developer Owner",
+   "label": "Consultant",
    "unique": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-07 13:10:58.369428",
+ "modified": "2021-10-24 14:25:21.061466",
  "modified_by": "Administrator",
  "module": "Momra",
- "name": "Developer Owner",
+ "name": "Consultant",
  "owner": "Administrator",
  "permissions": [
   {
@@ -35,20 +42,9 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
-  },
-  {
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Apigee User",
-   "share": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "title_field": "developer_owner",
  "track_changes": 1
 }

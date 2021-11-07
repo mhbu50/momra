@@ -27,13 +27,13 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Verb",
-   "options": "\nGET\nPOST"
+   "options": "GET\nPOST"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-08-24 00:04:48.193583",
+ "modified": "2021-10-24 14:29:56.808350",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Opration",

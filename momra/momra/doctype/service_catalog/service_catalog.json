@@ -16,11 +16,14 @@
   "apijee_collection",
   "service_documentation",
   "protocole",
+  "tfs_code_link",
   "column_break_3",
   "arabic_name",
   "arabic_description",
   "source_url",
-  "tfs_code_link",
+  "target_collection",
+  "target_documentation",
+  "target_authorization",
   "source_collection",
   "analysis_documentation",
   "opration_sec_section",
@@ -51,18 +54,18 @@
   {
    "fieldname": "service_url",
    "fieldtype": "Data",
-   "label": "Service URL"
+   "label": "Proxy URL"
   },
   {
    "fieldname": "source_url",
    "fieldtype": "Data",
    "in_standard_filter": 1,
-   "label": "Source URL"
+   "label": "Target URL"
   },
   {
    "fieldname": "apijee_collection",
    "fieldtype": "Attach",
-   "label": "Apijee Collection"
+   "label": "Proxy Collection"
   },
   {
    "fieldname": "source_collection",
@@ -72,7 +75,7 @@
   {
    "fieldname": "service_documentation",
    "fieldtype": "Attach",
-   "label": "Service Documentation"
+   "label": "Proxy Documentation"
   },
   {
    "fieldname": "analysis_documentation",
@@ -248,11 +251,26 @@
    "fieldtype": "Table MultiSelect",
    "label": "Tracks",
    "options": "Track Owner"
+  },
+  {
+   "fieldname": "target_collection",
+   "fieldtype": "Attach",
+   "label": "Target Collection"
+  },
+  {
+   "fieldname": "target_authorization",
+   "fieldtype": "Attach",
+   "label": "Target Authorization"
+  },
+  {
+   "fieldname": "target_documentation",
+   "fieldtype": "Attach",
+   "label": "Target Documentation"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-24 14:54:28.787537",
+ "modified": "2021-11-08 11:22:10.605908",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Service Catalog",

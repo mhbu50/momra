@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "autoname": "PM.######",
+ "creation": "2021-11-08 13:38:58.473333",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "proxy_id",
+  "proxy_name",
+  "column_break_3",
+  "count",
+  "section_break_4",
+  "problem"
+ ],
+ "fields": [
+  {
+   "fieldname": "proxy_id",
+   "fieldtype": "Link",
+   "label": "Proxy ID",
+   "options": "Service Catalog"
+  },
+  {
+   "fetch_from": "proxy_id.english_name",
+   "fieldname": "proxy_name",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Proxy name"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Count"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Problem"
+  },
+  {
+   "fieldname": "problem",
+   "fieldtype": "Table",
+   "options": "Problem"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-08 14:08:13.021201",
+ "modified_by": "Administrator",
+ "module": "Momra",
+ "name": "PM",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "proxy_name",
+ "track_changes": 1
+}

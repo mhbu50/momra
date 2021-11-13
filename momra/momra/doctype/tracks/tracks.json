@@ -8,7 +8,6 @@
  "field_order": [
   "track_name",
   "track_owner",
-  "owner_name",
   "track_team_section",
   "track_service",
   "track_service_section",
@@ -46,18 +45,11 @@
    "fieldtype": "Table",
    "label": "Track Service",
    "options": "Track Service"
-  },
-  {
-   "fetch_from": "track_owner.full_name",
-   "fieldname": "owner_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Owner Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-24 14:28:01.669230",
+ "modified": "2021-11-11 11:09:14.513038",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Tracks",

@@ -24,7 +24,6 @@
   "target_collection",
   "target_documentation",
   "target_authorization",
-  "source_collection",
   "analysis_documentation",
   "opration_sec_section",
   "opration",
@@ -66,11 +65,6 @@
    "fieldname": "apijee_collection",
    "fieldtype": "Attach",
    "label": "Proxy Collection"
-  },
-  {
-   "fieldname": "source_collection",
-   "fieldtype": "Attach",
-   "label": "Source Collection"
   },
   {
    "fieldname": "service_documentation",
@@ -270,7 +264,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-08 11:22:10.605908",
+ "modified": "2021-11-11 11:36:41.549332",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Service Catalog",

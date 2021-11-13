@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_rename": 1,
  "autoname": "field:consultant",
  "creation": "2021-10-24 14:18:02.584586",
  "doctype": "DocType",
@@ -25,7 +26,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-10-24 14:25:21.061466",
+ "modified": "2021-11-11 10:53:06.860154",
  "modified_by": "Administrator",
  "module": "Momra",
  "name": "Consultant",

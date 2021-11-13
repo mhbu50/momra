@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class PM(Document):
+class PMs(Document):
 	pass

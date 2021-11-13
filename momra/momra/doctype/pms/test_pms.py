@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestPM(unittest.TestCase):
+class TestPMs(unittest.TestCase):
 	pass
